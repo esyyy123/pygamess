@@ -5,6 +5,7 @@ def main():
     print("1. Kertas")
     print("2. Batu")
     print("3. Gunting")
+    print("4. Keluar")
     pilih = int(input("Masukkan Pilihan Anda: "))
     import random
     comp = random.randint(1,3)
